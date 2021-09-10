@@ -69,4 +69,23 @@ PickEmoji welcomes the contributing by opening an issue or creating a pull reque
 | `Multi Platform Supports(iPad, macOS, iWatch)` |`false` |
 | `Appearance (Dark & Light)`                    |`false` |
 
+## About API
 
+I am using an API for fetching the emojies: https://api.emojisworld.fr/v1
+
+## About Me
+
+
+LinkedIn: [@in/my-pro-file](https://www.linkedin.com/in/my-pro-file/) <br />
+GitHub: [@myawesomehub](https://github.com/myawesomehub)<br />
+Twitter: [@mohdYasir03](https://twitter.com/mohdYasir03)<br />
+Medium: [@mdcode2021](https://medium.com/@mdcode2021)<br />
+
+
+<!-- 
+|Platforms | Links                                                          |
+|----------|----------------------------------------------------------------|
+|`LinkedIn`  |[@in/my-pro-file](https://www.linkedin.com/in/my-pro-file/)   |
+|`GitHub`    |[@myawesomehub](https://github.com/myawesomehub)              |
+|`Twitter`   |[@mohdYasir03](https://twitter.com/mohdYasir03)               |
+|`Medium`    |[@mdcode2021](https://medium.com/@mdcode2021)                 | -->
