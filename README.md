@@ -4,6 +4,8 @@ You can use this library in your projects🙃 . You can search the emojis too. *
 
 ## 🎥 Priview
 
+![Alt Text](https://github.com/myawesomehub/PickEmoji/blob/main/LibraryPriview/Priview.gif)
+
 ## 🤔 How to Use?
 
 You can just start using this libary by importing it in your project as a package and then writing these below code
