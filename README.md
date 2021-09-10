@@ -64,8 +64,6 @@ struct ContentView: View {
 
 PickEmoji welcomes the contributing by opening an issue or creating a pull request.
 
-## 🚀 Things You can Work and Contribute on
-
 | Features                                       | Status |
 |------------------------------------------------|--------|
 | `Multi Platform Supports(iPad, macOS, iWatch)` |`false` |
