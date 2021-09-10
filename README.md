@@ -6,7 +6,7 @@ You can use this library in your projects🙃 . You can search the emojis too. *
 
 # 🤔 How to Use?
 
-All you need to do is this 
+You can just start using this libary by importing it in your project as a package and then writing these below code
 
 ```swift
 import SwiftUI
@@ -16,11 +16,44 @@ struct ContentView: View {
     @State var selectedEmoji = "No Emoji"
     
     var body: some View {
-        ScrollView(.vertical, showsIndicators: false) {
-            PickEmoji(numberOfEmojiPerRow: 6) { emoji in
-                selectedEmoji = emoji
-            }
+        PickEmoji(numberOfEmojiPerRow: 6) { emoji in
+            selectedEmoji = emoji
         }
+    }
+}
+  ```
+Not only that, You can customize the view as you wish. Try the below code 
+
+```swift
+import SwiftUI
+import PickEmoji
+
+struct ContentView: View {
+    @State var selectedEmoji = "No Emoji"
+
+    var body: some View {
+        VStack {
+            ScrollView(.vertical, showsIndicators: false) {
+                PickEmoji(numberOfEmojiPerRow: 6) { emoji in
+                    selectedEmoji = emoji
+                }
+            }
+            .frame(maxHeight: 400)
+            .cornerRadius(14)
+
+            Spacer()
+
+            HStack {
+                Text("Selected Emoji: ")
+                Text(selectedEmoji)
+            }
+            .foregroundColor(.black)
+            .padding()
+            .background(Color.white)
+            .cornerRadius(10)
+            .shadow(color: .black.opacity(0.4), radius: 12, x: 6, y: 6)
+        }
+        .padding()
     }
 }
   ```
