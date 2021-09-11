@@ -2,7 +2,7 @@
 
 You can use this library in your projects🙃 . You can search the emojis too. **Below GIF tells you the most of it**
 
-## 🎥 Priview
+## 🎥 Preview
 
 ![Alt Text](https://github.com/myawesomehub/PickEmoji/blob/main/LibraryPriview/Priview.gif)
 
