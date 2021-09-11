@@ -68,6 +68,7 @@ PickEmoji welcomes the contributing by opening an issue or creating a pull reque
 |------------------------------------------------|--------|
 | `Multi Platform Supports(iPad, macOS, iWatch)` |`false` |
 | `Appearance (Dark & Light)`                    |`false` |
+| `Multiple Emoji Selectino`                     |`false` |
 
 ## About API
 
